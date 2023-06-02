@@ -1,0 +1,75 @@
+.conteudo{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo__top{
+    height: 5rem;
+    background-color: var(--azul-7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+    border-bottom: 2px solid var( --dourado-1);
+}
+
+.conteudo__mid{
+    flex-grow: 1;
+    background-color: var(--azul-2);
+}
+
+.conteudo__bot{
+    height: 5rem;
+    background-color: var(--azul-3);
+}
+
+.img_samuel_drift{
+    width: 50px;
+}
+
+.conteudo__top-img{
+    display: flex;
+    padding: 1em;
+}
+
+.conteudo__top-status{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0.3;
+    margin-right: auto;
+    color: var(--cinza-1);
+}
+
+.conteudo__top-status > h1 {
+    font-size: 24px;
+    padding-bottom: 0.2em;
+    font-weight: 700;
+    color: var( --dourado-1);
+}
+
+.conteudo__top-botao{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.replay__img{
+    border: 1px solid var(--dourado-1);
+    border-radius: 50%;
+    padding: 0.3em;
+    background-color: var(--cinza-2);
+    border-style: outset;
+    color: var(--dourado-4);
+}
+
+.status__button{
+    border: 1px solid var(--dourado-1);
+    background-color: var(--cinza-2);
+    color: var(--dourado-1);
+    padding: 0.6em 2em;
+    font-weight: 700;
+    border-style: outset;
+}

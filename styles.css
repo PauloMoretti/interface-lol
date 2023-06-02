@@ -1,0 +1,48 @@
+@import url(reset.css);
+@import url(./styles/conteudo.css);
+@import url(./styles/side-bar.css);
+
+
+:root{
+
+    /*Magia hextec*/
+    --azul-1: #CDFAFA;
+    --azul-2: #0AC8B9;
+    --azul-3: #0397AB;
+    --azul-4: #005A82;
+    --azul-5: #0A323C;
+    --azul-6: #091428;
+    --azul-7: #0A1428;
+
+    /*Metal hextec*/
+    --dourado-1: #F0E6D2;
+    --dourado-2: #C8AA6E;
+    --dourado-3: #C8AA6E;
+    --dourado-4: #C89B3C;
+    --dourado-5: #785A28;
+    --dourado-6: #463714;
+    --dourado-7: #32281E;
+
+    /*Texto e plano de fundo*/
+    --cinza-1: #A09B8C;
+    --cinza-meio: #5B5A56;
+    --cinza-2: #3C3C41;
+    --cinza-3: #1E2328;
+    --cinza-frio: #1E282D;
+    --preto-hextec: #010A13;
+}
+
+
+.main{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--azul-7);
+}
+
+
+
+
+
+
+
