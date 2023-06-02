@@ -15,7 +15,6 @@
 
 .side__bar-mid{
     flex-grow: 1;
-    background-color: var(--dourado-1);
 }
 
 .side__bar-bot{
@@ -75,4 +74,58 @@
 .nav__sino{
     width: 15px;
     height: 15px;
+}
+
+.side__bar-mid-social{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3em 0.4em;
+    align-items: center;
+    color: white;
+}
+.side__bar-mid-social > section > p{
+    color: var(--cinza-1);
+}
+
+.icon__social{
+    width: 20px;
+    height: 20px;
+    padding-right: 0.2em;
+}
+
+.side__bar-mid-listfriends{
+    display: flex;
+    align-items: center;
+    color: var(--cinza-1);
+}
+
+.side__bar-mid-listfriends > img {
+    width: 30px;
+    height: 25px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 0.3em 0.7em 0.5em 0.8em;
+    gap: 0.5em;
+}
+
+.lista__player{
+    width: 35px;
+    height: 35px;
+    border: 1px solid var(--dourado-4);
+    border-radius: 50%;
+}
+
+.nick__status > h2 {
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 0.2em;
+}
+
+.nick__status > p {
+    font-size: 13px;
+    color: rgb(0, 137, 0);
 }
