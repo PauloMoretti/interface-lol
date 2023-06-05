@@ -15,11 +15,17 @@
 
 .side__bar-mid{
     flex-grow: 1;
+    background-color: var(--preto-hextec);
 }
 
 .side__bar-bot{
-    height: 3rem;
-    background-color: var(--cinza-3);
+    display: flex;
+    height: 2.5rem;
+    background-color: var(--preto-hextec);
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgba(218, 165, 32, 0.3);
+    padding: 0 0.3em;
 }
 
 .side__bar-top-nav{
@@ -128,4 +134,27 @@ li {
 .nick__status > p {
     font-size: 13px;
     color: rgb(0, 137, 0);
+}
+
+.side__buttons{
+    width: 20px;
+    height: 18px;
+    border: 1px solid var(--dourado-1);
+    border-style: outset;
+    background-color: var(--cinza-2);
+    padding: 0.3em;
+    border-radius: 2px;
+}
+
+.side__buttons-bug{
+    width: 20px;
+    height: 18px;
+    border: 1px solid var(--dourado-1);
+    border-style: outset;
+    background-color: var(--cinza-2);
+    padding: 0.1em;
+}
+
+.version{
+    color: var(--cinza-meio);
 }

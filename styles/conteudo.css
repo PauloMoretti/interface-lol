@@ -2,26 +2,27 @@
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+    background-image: url(../imgs/riven.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .conteudo__top{
     height: 5rem;
-    background-color: var(--azul-7);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 1em;
-    border-bottom: 2px solid var( --dourado-1);
+    border-bottom: 2px solid var( --dourado-6);
+    background-color: #091223f0;
 }
 
 .conteudo__mid{
     flex-grow: 1;
-    background-color: var(--azul-2);
 }
 
 .conteudo__bot{
-    height: 5rem;
-    background-color: var(--azul-3);
+    height: 5rem;  
 }
 
 .img_samuel_drift{
