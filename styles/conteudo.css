@@ -2,6 +2,7 @@
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+   /* background-image: linear-gradient(to right, #091428, #0A1428); */
     background-image: url(../imgs/riven.jpg);
     background-size: cover;
     background-position: center;
@@ -13,16 +14,28 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 1em;
-    border-bottom: 2px solid var( --dourado-6);
-    background-color: #091223f0;
+    border-bottom: 2px solid var(--dourado-6);
+    background-color: #091223d1;
 }
 
 .conteudo__mid{
     flex-grow: 1;
 }
 
-.conteudo__bot{
-    height: 5rem;  
+.conteudo__mid-links{
+    margin: 1.5em 2em;
+}
+
+.conteudo__mid-links > a{
+    text-decoration: none;
+    color: var(--dourado-1);
+    font-size: 16px;
+    margin-right: 2em;
+    padding: 0.2em;
+}
+
+.conteudo__mid-links > a:nth-child(1){
+    border-bottom: 1px solid var(--dourado-1);
 }
 
 .img_samuel_drift{
@@ -73,4 +86,42 @@
     padding: 0.6em 2em;
     font-weight: 700;
     border-style: outset;
+}
+
+.conteudo__bot{
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #091428ce;
+}
+
+.conteudo__bot-chat{
+    margin-left: 1em;
+}
+
+.conteudo__bot-text{
+    background-color: var(--preto-hextec);
+    padding: 0.6em 10em 0.6em 0.9em;
+    border: 1px solid var(--dourado-1);
+    color: var(--cinza-4);
+    border-radius: 2px;
+    border-style: outset;
+}
+
+.conteudo__bot-buttons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.button__continue{
+    padding: 1em 2.5em;
+    color: white;
+    background-color: var( --azul-2);
+}
+
+#grupo{
+    width: 20px;
+    height: 20px;
 }
