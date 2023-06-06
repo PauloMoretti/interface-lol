@@ -2,6 +2,26 @@
 @import url(./styles/conteudo.css);
 @import url(./styles/side-bar.css);
 
+@font-face {
+    font-family: 'BeaufortForLoL';
+    src: url('./assets/BeaufortforLOL-Regular.ttf') format('truetype');
+}  
+
+@font-face {
+    font-family: 'BeaufortForLoLBold';
+    src: url('./assets/BeaufortforLOL-Bold.ttf') format('truetype');
+}  
+
+@font-face {
+    font-family: 'SpiegelTT';
+    src: url('./assets/Spiegel_TT_Regular.ttf') format('truetype');
+}  
+
+@font-face {
+    font-family: 'SpiegelTTBold';
+    src: url('./assets/Spiegel_TT_Bold.ttf') format('truetype');
+}  
+
 
 :root{
 
@@ -38,6 +58,7 @@
     width: 100%;
     height: 100vh;
     background-color: var(--azul-7);
+    font-family: 'BeaufortForLoL';
 }
 
 

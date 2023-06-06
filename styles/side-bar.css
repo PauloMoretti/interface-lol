@@ -13,27 +13,17 @@
     flex-direction: column;
 }
 
-.side__bar-mid{
-    flex-grow: 1;
-    background-color: var(--preto-hextec);
-}
-
-.side__bar-bot{
-    display: flex;
-    height: 2.5rem;
-    background-color: var(--preto-hextec);
-    align-items: center;
-    justify-content: space-between;
-    border-top: 1px solid rgba(218, 165, 32, 0.3);
-    padding: 0 0.3em;
-}
-
 .side__bar-top-nav{
     display: flex;
     margin-left: auto;
     gap: 5px;
     padding-top: 0.3em;
     padding-right: 0.5em;
+}
+
+.side__bar-container{
+    display: flex;
+    padding-left: 15px;
 }
 
 .side__bar-top-card{
@@ -45,19 +35,15 @@
 }
 
 .side__bar-top-card > h2 {
+    font-family: 'BeaufortForLoLBold';
     font-size: 16px;
-    font-weight: 700;
     color: white;
 }
 
 .side__bar-top-card > p {
+    font-family: 'SpiegelTT';
     font-size: 14px;
     color: rgb(0, 137, 0);
-}
-
-.nav__icons{
-    width: 15px;
-    height: 15px;
 }
 
 .icon__player{
@@ -65,11 +51,6 @@
     height: 50px;
     border: 1px solid var(--dourado-4);
     border-radius: 50%;
-}
-
-.side__bar-container{
-    display: flex;
-    padding-left: 15px;
 }
 
 .sino{
@@ -82,6 +63,16 @@
     height: 15px;
 }
 
+.nav__icons{
+    width: 15px;
+    height: 15px;
+}
+
+.side__bar-mid{
+    flex-grow: 1;
+    background-color: var(--preto-hextec);
+}
+
 .side__bar-mid-social{
     display: flex;
     justify-content: space-between;
@@ -89,8 +80,20 @@
     align-items: center;
     color: white;
 }
-.side__bar-mid-social > section > p{
+
+.social{
     color: var(--cinza-1);
+    font-family: 'BeaufortForLoLBold';
+}
+
+.side__bar-bot{
+    display: flex;
+    height: 2.5rem;
+    background-color: var(--preto-hextec);
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgba(218, 165, 32, 0.3);
+    padding: 0 0.3em;
 }
 
 .icon__social{
@@ -103,6 +106,7 @@
     display: flex;
     align-items: center;
     color: var(--cinza-1);
+    font-family: 'BeaufortForLoLBold';
 }
 
 .side__bar-mid-listfriends > img {
@@ -125,15 +129,28 @@ li {
 }
 
 .nick__status > h2 {
+    font-family: 'BeaufortForLoL';
     font-size: 15px;
-    font-weight: 600;
-    color: white;
-    padding-bottom: 0.2em;
+    color: var(--cinza-1);
+    padding-bottom: 0.2em; 
 }
 
-.nick__status > p {
+.online {
+    font-family: 'SpiegelTT';
     font-size: 13px;
     color: rgb(0, 137, 0);
+}
+
+.in__game {
+    font-family: 'SpiegelTT';
+    color: var(--azul-3);
+    font-size: 13px;
+}
+
+.league{
+    font-family: 'SpiegelTT';
+    color: var(--cinza-meio);
+    font-size: 13px;
 }
 
 .side__buttons{
@@ -156,5 +173,6 @@ li {
 }
 
 .version{
+    font-family: 'SpiegelTT';
     color: var(--cinza-meio);
 }

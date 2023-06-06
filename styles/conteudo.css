@@ -18,33 +18,8 @@
     background-color: #091223d1;
 }
 
-.conteudo__mid{
-    flex-grow: 1;
-}
-
-.conteudo__mid-links{
-    margin: 1.5em 2em;
-}
-
-.conteudo__mid-links > a{
-    text-decoration: none;
-    color: var(--dourado-1);
-    font-size: 16px;
-    margin-right: 2em;
-    padding: 0.2em;
-}
-
-.conteudo__mid-links > a:nth-child(1){
-    border-bottom: 1px solid var(--dourado-1);
-}
-
 .img_samuel_drift{
     width: 50px;
-}
-
-.conteudo__top-img{
-    display: flex;
-    padding: 1em;
 }
 
 .conteudo__top-status{
@@ -57,9 +32,18 @@
 
 .conteudo__top-status > h1 {
     font-size: 24px;
+    font-family: 'BeaufortForLoLBold';
     padding-bottom: 0.2em;
-    font-weight: 700;
     color: var( --dourado-1);
+}
+
+.conteudo__top-status > p {
+    font-family: 'SpiegelTT';
+}
+
+.conteudo__top-img{
+    display: flex;
+    padding: 1em;
 }
 
 .conteudo__top-botao{
@@ -68,6 +52,15 @@
     text-align: center;
     justify-content: center;
     gap: 15px;
+}
+
+.status__button{
+    border: 1px solid var(--dourado-1);
+    background-color: var(--cinza-2);
+    color: var(--dourado-1);
+    padding: 0.6em 2em;
+    font-family: 'BeaufortForLoLBold';
+    border-style: outset;
 }
 
 .replay__img{
@@ -79,13 +72,25 @@
     color: var(--dourado-4);
 }
 
-.status__button{
-    border: 1px solid var(--dourado-1);
-    background-color: var(--cinza-2);
+.conteudo__mid{
+    flex-grow: 1;
+}
+
+.conteudo__mid-links{
+    margin: 1.5em 2em;
+}
+
+.conteudo__mid-links > a{
+    text-decoration: none;
     color: var(--dourado-1);
-    padding: 0.6em 2em;
-    font-weight: 700;
-    border-style: outset;
+    font-size: 16px;
+    font-family: 'BeaufortForLoLBold';
+    margin-right: 2em;
+    padding: 0.2em;
+}
+
+.conteudo__mid-links > a:nth-child(1){
+    border-bottom: 1px solid var(--dourado-1);
 }
 
 .conteudo__bot{
@@ -115,10 +120,16 @@
     gap: 10px;
 }
 
+.conteudo__bot-buttons > p {
+    color: white;
+    font-family: 'SpiegelTT';
+}
+
 .button__continue{
     padding: 1em 2.5em;
     color: white;
     background-color: var( --azul-2);
+    font-family: 'BeaufortForLoLBold';
 }
 
 #grupo{
