@@ -37,7 +37,7 @@
 .side__bar-top-card > h2 {
     font-family: 'BeaufortForLoLBold';
     font-size: 16px;
-    color: white;
+    color: var(--dourado-1);
 }
 
 .side__bar-top-card > p {
@@ -175,4 +175,5 @@ li {
 .version{
     font-family: 'SpiegelTT';
     color: var(--cinza-meio);
+    font-size: 12px;
 }

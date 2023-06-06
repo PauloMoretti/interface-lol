@@ -52,13 +52,13 @@
     --preto-hextec: #010A13;
 }
 
-
 .main{
     display: flex;
     width: 100%;
     height: 100vh;
     background-color: var(--azul-7);
     font-family: 'BeaufortForLoL';
+    letter-spacing: 1px;
 }
 
 

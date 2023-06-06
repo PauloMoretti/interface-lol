@@ -86,11 +86,73 @@
     font-size: 16px;
     font-family: 'BeaufortForLoLBold';
     margin-right: 2em;
-    padding: 0.2em;
+    padding: 0.1em;
 }
 
 .conteudo__mid-links > a:nth-child(1){
     border-bottom: 1px solid var(--dourado-1);
+}
+
+.conteudo__mid-maestria{
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.level__xp{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.maestria__xp{
+    height: 100px;
+    width: 100px;
+}
+
+.emblema{
+    height: 190px;
+    width: 230px;
+    /*
+    background-image: url(/imgs/Icon_Metal_Circle.svg);
+    background-repeat: no-repeat;
+    */
+}
+
+.points{
+    font-family: 'BeaufortForLoLBold';
+    font-size: 23px;
+    color: var(--azul-1);
+    padding-top: 10px;
+}
+
+.stats{
+    font-family: 'BeaufortForLoLBold';
+    color: var(--cinza-1);
+    padding-top: 1em;
+}
+
+.elo{
+    font-family: 'BeaufortForLoLBold';
+    font-size: 20px;
+    color: var(--dourado-1);
+    padding-top: 1em;
+}
+
+.elo__points{
+    font-family: 'BeaufortForLoLBold';
+    font-size: 13px;
+    color: var(--cinza-1);
+    padding-top: 5px;
 }
 
 .conteudo__bot{
