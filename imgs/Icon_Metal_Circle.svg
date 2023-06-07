@@ -4,7 +4,7 @@
       .cls-1 {
         fill: none;
         stroke-miterlimit: 10;
-        stroke-width: 3px;
+        stroke-width: 1px;
         stroke: url(#linear-gradient);
       }
     </style>

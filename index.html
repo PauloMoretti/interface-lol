@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>League</title>
   </head>
@@ -43,29 +47,93 @@
           </div>
 
           <div class="conteudo__mid-maestria">
+            <div class="container__externo">
+              <div class="container__interno">
+                <img
+                  src="./imgs/Icon_Metal_Circle.svg"
+                  alt=""
+                  class="circle__lvl"
+                />
+                <img
+                  src="./imgs/icone-ashe.jpg"
+                  alt="Ícone player"
+                  class="level__xp"
+                />
+              </div>
 
-            <div class="container1">
-              <img src="./imgs/icone-ashe.jpg" alt="Ícone player" class="level__xp">
-              <h2 class="points"> +120xp </h2>
-              <p class="stats"> LEVEL </p>
+              <div>
+                <h2 class="points">+120 XP</h2>
+                <p class="stats">LEVEL</p>
+              </div>
             </div>
 
-            <div class="container1"> 
-              <img src="./imgs/Challenger_Emblem_2022.png" alt="emblema-challenger" class="emblema">
-              <h2 class="points"> +30 LP </h2>
-              <h3 class="elo"> CHALLENGER </h3>
-              <p class="elo__points"> 1000 LP </p>
+            <div class="container__externo">
+              <div class="container__interno">
+                <img
+                  src="./imgs/Icon_Metal_Circle.svg"
+                  alt=""
+                  class="circle__emblema"
+                />
+                <img
+                  src="./imgs/Challenger_Emblem_2022.png"
+                  alt="emblema-challenger"
+                  class="emblema"
+                />
+              </div>
+
+              <div>
+                <h2 class="points">+30 LP</h2>
+                <h3 class="elo">CHALLENGER</h3>
+                <p class="elo__points">1000 LP</p>
+              </div>
             </div>
 
-            <div class="container1">
-              <img src="./imgs/u.png" alt="Maestria sete" class="maestria__xp">
-              <h2 class="points"> +120 PTS </h2>
-              <h3 class="stats"> MASTERY 7 </h3>
-              <p class="elo__points"> 200.000 </p> 
-            </div>
+            <div class="container__externo">
+              <div class="container__interno">
+                <img
+                  src="./imgs/Icon_Metal_Circle.svg"
+                  alt=""
+                  class="circle__lvl"
+                />
+                <img
+                  src="./imgs/u.png"
+                  alt="Maestria sete"
+                  class="maestria__xp"
+                />
+              </div>
 
+              <div>
+                <h2 class="points">+120 PTS</h2>
+                <h3 class="stats">MASTERY 7</h3>
+                <p class="elo__points">200.000</p>
+              </div>
+            </div>
           </div>
-          <div class="conteudo__mid-carrossel"></div>
+          <div class="conteudo__mid-carrossel">
+            <!-- Slider main container -->
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                ...
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+
+              <!-- If we need scrollbar -->
+              <div class="swiper-scrollbar"></div>
+              '
+            </div>
+          </div>
         </div>
 
         <div class="conteudo__bot">
@@ -88,9 +156,7 @@
             <p>2/4</p>
           </div>
 
-          <div>
-            
-          </div>
+          <div></div>
         </div>
       </div>
 
@@ -128,7 +194,7 @@
               />
             </div>
             <div class="side__bar-top-card">
-              <h2>Frg - Informática</h2>
+              <h2>Frg-Informática</h2>
               <p>• Online</p>
             </div>
 
@@ -341,7 +407,7 @@
 
                 <div class="nick__status">
                   <h2>Player 11</h2>
-                  <p  class="league">Offline</p>
+                  <p class="league">Offline</p>
                 </div>
               </li>
             </ul>
@@ -378,5 +444,15 @@
         </div>
       </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!--
+    <script>
+       const swiper = new Swiper('.swiper', {
+       speed: 400,
+       spaceBetween: 100,
+       });
+    </script>
+    -->
   </body>
 </html>
