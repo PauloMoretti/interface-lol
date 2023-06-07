@@ -115,11 +115,15 @@
               <!-- Additional required wrapper -->
               <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide">Slide 1</div>
-                <div class="swiper-slide">Slide 2</div>
-                <div class="swiper-slide">Slide 3</div>
-                <div class="swiper-slide">Slide 4</div>
-                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide"><img src="./imgs/carta-de-desafio-lol.webp" alt="carta de deasfio lol" class="card__league"></div>
+                <div class="swiper-slide"><img src="./imgs/carta-de-desafio-lol.webp" alt="carta de deasfio lol" class="card__league"></div>
+                <div class="swiper-slide"><img src="./imgs/carta-de-desafio-lol.webp" alt="carta de deasfio lol" class="card__league"></div>
+                <div class="swiper-slide"><img src="./imgs/carta-de-desafio-lol.webp" alt="carta de deasfio lol" class="card__league"></div>
+                <div class="swiper-slide"><img src="./imgs/carta-de-desafio-lol.webp" alt="carta de deasfio lol" class="card__league"></div>
+                <div class="swiper-slide"><img src="./imgs/carta-de-desafio-lol.webp" alt="carta de deasfio lol" class="card__league"></div>
+                <div class="swiper-slide"><img src="./imgs/carta-de-desafio-lol.webp" alt="carta de deasfio lol" class="card__league"></div>
+                <div class="swiper-slide"><img src="./imgs/carta-de-desafio-lol.webp" alt="carta de deasfio lol" class="card__league"></div>
+                <div class="swiper-slide"><img src="./imgs/carta-de-desafio-lol.webp" alt="carta de deasfio lol" class="card__league"></div>
                 ...
               </div>
               <!-- If we need pagination -->
@@ -131,7 +135,7 @@
 
               <!-- If we need scrollbar -->
               <div class="swiper-scrollbar"></div>
-              '
+              
             </div>
           </div>
         </div>
@@ -146,17 +150,21 @@
           </div>
 
           <div class="conteudo__bot-buttons">
-            <img
-              src="./imgs/close_white_24dp.svg"
-              alt="Sair da sala"
-              class="replay__img"
-            />
-            <button class="button__continue">CONTINUE</button>
+            <img src="./imgs/close_white_24dp.svg" alt="Sair da sala" class="replay__img" />
+            
+            <div class="range__slider">
+              <button class="button__continue">CONTINUE</button>
+
+              <div class="range__pai">
+                <div class="range__filho">
+                </div>
+              </div>
+
+            </div>
+            
             <img src="./imgs/group.svg" alt="Icone grupo" id="grupo" />
             <p>2/4</p>
           </div>
-
-          <div></div>
         </div>
       </div>
 
@@ -446,13 +454,17 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <!--
+    
     <script>
        const swiper = new Swiper('.swiper', {
-       speed: 400,
-       spaceBetween: 100,
-       });
+          spaceBetween: 10,
+          slidesPerView: 5,
+          pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+          },
+        });
     </script>
-    -->
+   
   </body>
 </html>
