@@ -63,9 +63,17 @@
     height: 15px;
 }
 
+.nav__sino:hover{
+    cursor: pointer;
+}
+
 .nav__icons{
     width: 15px;
     height: 15px;
+}
+
+.nav__icons:hover{
+    cursor: pointer;
 }
 
 .side__bar-mid{
@@ -102,6 +110,10 @@
     padding-right: 0.2em;
 }
 
+.icon__social:hover{
+    cursor: pointer;
+}
+
 .side__bar-mid-listfriends{
     display: flex;
     align-items: center;
@@ -112,13 +124,18 @@
 .side__bar-mid-listfriends > img {
     width: 30px;
     height: 25px;
+    cursor: pointer;
 }
 
-li {
+.friend {
     display: flex;
     align-items: center;
     padding: 0.3em 0.7em 0.5em 0.8em;
     gap: 0.5em;
+}
+
+.friend:hover{
+    cursor: pointer;
 }
 
 .lista__player{
@@ -163,6 +180,11 @@ li {
     border-radius: 2px;
 }
 
+.side__buttons:hover{
+    cursor: pointer;
+    background-color: var(--cinza-3);
+}
+
 .side__buttons-bug{
     width: 20px;
     height: 18px;
@@ -170,6 +192,11 @@ li {
     border-style: outset;
     background-color: var(--cinza-2);
     padding: 0.1em;
+}
+
+.side__buttons-bug:hover{
+    cursor: pointer;
+    background-color: var(--cinza-3);
 }
 
 .version{
